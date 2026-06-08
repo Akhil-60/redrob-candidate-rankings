@@ -1,2 +1,19 @@
-# redrob-candidate-rankings
-AI-powered candidate discovery and ranking system for the Redrob Hackathon. Ranked 100000 candidates using profile, skills, career history and behavioral signals.
+# Redrob Candidate Ranking Challenge
+
+## Run
+
+pip install -r requirements.txt
+
+Run notebook:
+redrob_candidate_ranking.ipynb
+
+Output:
+submission.csv
+
+## Methodology
+
+- Parsed candidate profiles
+- Extracted experience, skills, career history
+- Used JD matching score
+- Used behavioral signals
+- Ranked top 100 candidates
